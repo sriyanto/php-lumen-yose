@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1474963062">
-  <project timestamp="1474963062">
+<coverage generated="1474963805">
+  <project timestamp="1474963805">
     <package name="App\Console">
       <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Console/Kernel.php">
         <class name="Kernel" namespace="App\Console">
@@ -65,13 +65,11 @@
       </file>
       <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Http/Controllers/MinesweeperController.php">
         <class name="MinesweeperController" namespace="App\Http\Controllers">
-          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="10" type="method" name="board" crap="2" count="0"/>
-        <line num="11" type="stmt" count="0"/>
-        <line num="12" type="stmt" count="0"/>
-        <line num="13" type="stmt" count="0"/>
-        <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        <line num="10" type="method" name="board" crap="1" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Http/Controllers/PingController.php">
         <class name="PingController" namespace="App\Http\Controllers">
@@ -123,13 +121,13 @@
       </file>
     </package>
     <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Http/routes.php">
-      <line num="14" type="stmt" count="8"/>
-      <line num="16" type="stmt" count="8"/>
-      <line num="18" type="stmt" count="8"/>
-      <line num="20" type="stmt" count="8"/>
-      <line num="22" type="stmt" count="8"/>
-      <line num="24" type="stmt" count="8"/>
-      <line num="26" type="stmt" count="8"/>
+      <line num="14" type="stmt" count="9"/>
+      <line num="16" type="stmt" count="9"/>
+      <line num="18" type="stmt" count="9"/>
+      <line num="20" type="stmt" count="9"/>
+      <line num="22" type="stmt" count="9"/>
+      <line num="24" type="stmt" count="9"/>
+      <line num="26" type="stmt" count="9"/>
       <metrics loc="26" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="7" coveredelements="7"/>
     </file>
     <package name="App\Jobs">
@@ -165,6 +163,6 @@
         <metrics loc="19" ncloc="14" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <metrics files="16" loc="307" ncloc="231" classes="15" methods="12" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="21" elements="55" coveredelements="25"/>
+    <metrics files="16" loc="307" ncloc="231" classes="15" methods="12" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="22" elements="53" coveredelements="27"/>
   </project>
 </coverage>
