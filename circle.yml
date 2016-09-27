@@ -1,4 +1,8 @@
-
+deployment:
+ staging:
+   branch: master
+   heroku:
+     appname: ralalitest
 
 test:
   override:
