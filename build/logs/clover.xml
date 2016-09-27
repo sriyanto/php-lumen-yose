@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1474962864">
-  <project timestamp="1474962864">
+<coverage generated="1474963062">
+  <project timestamp="1474963062">
     <package name="App\Console">
       <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Console/Kernel.php">
         <class name="Kernel" namespace="App\Console">
@@ -83,9 +83,9 @@
       </file>
       <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Http/Controllers/PrimeFactorsController.php">
         <class name="PrimeFactorsController" namespace="App\Http\Controllers">
-          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="15" coveredelements="12"/>
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
         </class>
-        <line num="11" type="method" name="prime" crap="5.07" count="2"/>
+        <line num="11" type="method" name="prime" crap="4" count="2"/>
         <line num="13" type="stmt" count="2"/>
         <line num="14" type="stmt" count="2"/>
         <line num="15" type="stmt" count="2"/>
@@ -97,10 +97,7 @@
         <line num="21" type="stmt" count="1"/>
         <line num="22" type="stmt" count="1"/>
         <line num="24" type="stmt" count="1"/>
-        <line num="25" type="stmt" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="1"/>
-        <metrics loc="30" ncloc="30" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="12" elements="15" coveredelements="12"/>
+        <metrics loc="26" ncloc="26" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
       </file>
       <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Http/Controllers/ShareController.php">
         <class name="ShareController" namespace="App\Http\Controllers">
@@ -168,6 +165,6 @@
         <metrics loc="19" ncloc="14" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <metrics files="16" loc="311" ncloc="235" classes="15" methods="12" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="22" elements="58" coveredelements="25"/>
+    <metrics files="16" loc="307" ncloc="231" classes="15" methods="12" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="21" elements="55" coveredelements="25"/>
   </project>
 </coverage>
