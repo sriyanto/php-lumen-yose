@@ -17,3 +17,13 @@
         Ship 3
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-1.x-git.js"></script>
+<input id="ship" value="">
+<button id="dock">Dock</button>
+
+<script>
+    $("#dock").click(function(){
+        $("#ship-1").html( $("input#ship").val() );
+
+    });
+</script>
