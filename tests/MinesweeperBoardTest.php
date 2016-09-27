@@ -14,7 +14,6 @@ class MinesweeperBoardTest extends \PHPUnit_Framework_TestCase
     public function minesweeperBoardTest() {
         $this->visit('/minesweeper')
             ->click('Minesweeper')
-            ->seePageIs('/minesweeper')
             ->assertTitle('Minesweeper')
             ->identifier('cell-1x1')
             ->identifier('cell-8x8');
