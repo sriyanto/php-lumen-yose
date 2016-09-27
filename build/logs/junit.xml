@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="tests" tests="7" assertions="21" failures="0" errors="0" time="0.328216">
+    <testsuite name="AstroportTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/AstroportTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.072278">
+      <testcase name="testElement" class="AstroportTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/AstroportTest.php" line="10" assertions="2" time="0.072278">
+        <system-out>
+* AstroportTest::testElement()</system-out>
+      </testcase>
+    </testsuite>
+    <testsuite name="ContactmeTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/ContactMeTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.049629">
+      <testcase name="testContact" class="ContactmeTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/ContactMeTest.php" line="10" assertions="2" time="0.049629"/>
+    </testsuite>
+    <testsuite name="HomeTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/HomeTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.040213">
+      <testcase name="testHome" class="HomeTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/HomeTest.php" line="10" assertions="2" time="0.040213">
+        <system-out>
+* HomeTest::testHome()</system-out>
+      </testcase>
+    </testsuite>
+    <testsuite name="PingTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/PingTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.031247">
+      <testcase name="testPing" class="PingTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/PingTest.php" line="10" assertions="3" time="0.031247">
+        <system-out>
+* PingTest::testPing()</system-out>
+      </testcase>
+    </testsuite>
+    <testsuite name="PortofolioPingTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/PortofolioPingTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.064784">
+      <testcase name="testPortofolio" class="PortofolioPingTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/PortofolioPingTest.php" line="10" assertions="6" time="0.064784"/>
+    </testsuite>
+    <testsuite name="PrimeFactorsTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/PrimeFactorsTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.026799">
+      <testcase name="testPrime" class="PrimeFactorsTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/PrimeFactorsTest.php" line="10" assertions="4" time="0.026799"/>
+    </testsuite>
+    <testsuite name="ShareTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/ShareTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.043266">
+      <testcase name="testRepositoryLink" class="ShareTest" file="/Users/fafan/TrainingDay2/php-lumen-yose/tests/ShareTest.php" line="10" assertions="2" time="0.043266">
+        <system-out>
+* ShareTest::testRepositoryLink()</system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
