@@ -6,7 +6,7 @@ for($i =1; $i<=$x;$i++){
   	echo "<tr>";
 	$y = 8;
   	for($ii = 1; $ii<=$y;$ii++){
-  		if($i == 3 && $ii==6){
+  		if($i == 7 && $ii==3){
   			echo '<td id="cell-'.$i.'x'.$ii.'" onclick="ganti(this)">empty</td>';
   		}else{
   			echo '<td id="cell-'.$i.'x'.$ii.'">empty</td>';
