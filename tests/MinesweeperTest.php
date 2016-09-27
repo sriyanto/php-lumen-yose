@@ -15,7 +15,7 @@ class MinesweeperTest extends TestCase
         $this->assertEquals($dom->getElementById('title')->textContent, 'Minesweeper');
         for ($x=1; $x<=8; $x++)
             for ($y=1; $y<=8; $y++)
-                $this->assertEquals($dom->getElementById('cell-'.$x.'x'.$y)->textContent, 'cek');
+                $this->assertEquals($dom->getElementById('cell-'.$x.'x'.$y)->textContent, 'empty');
 
     }
 }
